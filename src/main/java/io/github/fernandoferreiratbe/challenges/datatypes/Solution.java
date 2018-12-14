@@ -13,13 +13,17 @@ public class Solution {
 
         Scanner scan = new Scanner(System.in);
 
-        System.out.println("Type a int value");
         intValue = scan.nextInt();
 
-        System.out.println("Type a double value");
         doubleValue = scan.nextDouble();
 
-        stringValue = scan.next();
+        scan.nextLine();
+
+        stringValue = scan.nextLine();
+
+        System.out.println("String: " + stringValue);
+        System.out.println("Double: " + doubleValue);
+        System.out.println("Int: " + intValue);
 
     }
 }
