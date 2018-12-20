@@ -3,7 +3,6 @@ package io.github.fernandoferreiratbe.challenges.birthdaycakecandles;
 
 import java.util.Arrays;
 
-
 public class Solution {
     // Complete the birthdayCakeCandles function below.
     static int birthdayCakeCandles(int[] ar) {
